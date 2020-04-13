@@ -39,4 +39,22 @@ evaluate transaction
  `./lib/call-for-code-contract.js`
  `./test/call-for-code-contract.js`
 
- 
+ ## For chain code upgrade.
+ Update version in package json
+ ```
+  "version": "0.0.2",
+ ```
+add new function and change test coverage as we will skip test for this hello world function.
+ ```
+    async NewFunction(ctx) {
+        return 'Here is new function';
+    }
+
+ ```
+
+ ## Upgrade open project with function
+ NewFunction
+```docker ps -a ``` see function
+```
+[4/13/2020 7:34:49 PM] [SUCCESS] Returned value from NewFunction: Here is new function
+```
