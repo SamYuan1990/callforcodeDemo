@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "callForCodeExists",
+        "transactionLabel": "A test callForCodeExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createCallForCode",
+        "transactionLabel": "A test createCallForCode transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readCallForCode",
+        "transactionLabel": "A test readCallForCode transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateCallForCode",
+        "transactionLabel": "A test updateCallForCode transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteCallForCode",
+        "transactionLabel": "A test deleteCallForCode transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
