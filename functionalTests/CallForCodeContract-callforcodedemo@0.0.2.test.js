@@ -67,7 +67,7 @@ describe('CallForCodeContract-callforcodedemo@0.0.2' , () => {
 
             const response = await SmartContractUtil.submitTransaction('CallForCodeContract', 'NewFunction', args, gateway); // Returns buffer of transaction return value
             // TODO: Update with return value of transaction
-            // assert.equal(JSON.parse(response.toString()), undefined);
+            assert.equal(response.toString(), 'Here is new function');
         }).timeout(10000);
     });
 

@@ -61,3 +61,20 @@ add new function and change test coverage as we will skip test for this hello wo
 
 ## generateTest
 Run function test as client to test the chaincode
+```
+
+  CallForCodeContract-callforcodedemo@0.0.2
+    NewFunction
+      ✓ should submit NewFunction transaction (2296ms)
+    callForCodeExists
+      ✓ should submit callForCodeExists transaction (2227ms)
+    createCallForCode
+      ✓ should submit createCallForCode transaction (2188ms)
+    readCallForCode
+      ✓ should submit readCallForCode transaction (2168ms)
+    updateCallForCode
+      ✓ should submit updateCallForCode transaction (2175ms)
+    deleteCallForCode
+      ✓ should submit deleteCallForCode transaction (2173ms)
+
+```
