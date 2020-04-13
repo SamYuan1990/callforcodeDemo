@@ -52,9 +52,12 @@ add new function and change test coverage as we will skip test for this hello wo
 
  ```
 
- ## Upgrade open project with function
+## Upgrade open project with function
  NewFunction
 ```docker ps -a ``` see function
 ```
 [4/13/2020 7:34:49 PM] [SUCCESS] Returned value from NewFunction: Here is new function
 ```
+
+## generateTest
+Run function test as client to test the chaincode
